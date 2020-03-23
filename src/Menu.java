@@ -7,8 +7,10 @@ public class Menu
 
 
 
+
    public static void startMenu()
    {
+      Menu menu = new Menu();
       boolean isProgramRuning = true;
       do
       {
@@ -28,7 +30,7 @@ public class Menu
                switch(account)
                {
                   case 0:
-                     //print main menu
+                     menu.printMainMenu();
                   break;
 
                   default:
@@ -40,7 +42,33 @@ public class Menu
                isProgramRuning = false;
                break;
          }
-      }while (isProgramRuning == true);
+      }while (isProgramRuning);
+   }
+
+   public void printMainMenu(){
+      System.out.println("Main Menu");
+      System.out.println("1) Salary");
+      System.out.println("2) Schedule");
+      System.out.println("3) Log out");
+
+
+      int mainChoice = in.getInt();
+      switch(mainChoice){
+         case 1:
+            Salary sal = new Salary();
+            sal.printMenu();
+            break;
+
+         case 2:
+            Schedule sched = new Schedule();
+            sched.printMenu();
+            break;
+         case 3:
+            startMenu();
+            break;
+
+      }
+
    }
 
 }
