@@ -7,12 +7,9 @@ public class login
 
     public login()
     {
-        Usernames.add("Chairman");
-        Usernames.add("Accountant");
-        Usernames.add("Coach");
-        Passwords.add("Chairman");
-        Passwords.add("Accountant");
-        Passwords.add("Coach");
+        Usernames.add("Admin");
+        Passwords.add("Admin");
+
     }
 
 

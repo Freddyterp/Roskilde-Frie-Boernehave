@@ -1,4 +1,4 @@
-public class Schedule {
+public class Salary {
 
     public void printMenu(){
 

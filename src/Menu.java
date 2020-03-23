@@ -12,7 +12,7 @@ public class Menu
       boolean isProgramRuning = true;
       do
       {
-         System.out.println("Welcome to The dolphin SwimClub.");
+         System.out.println("Welcome to Roskildes frie boernehus.");
          System.out.println("1.) Login");
          System.out.println("2.) End Program");
          int Choice = in.getInt();
@@ -28,16 +28,9 @@ public class Menu
                switch(account)
                {
                   case 0:
-                  Chairman Cm = new Chairman(newFile);
-                  Cm.PrintMenu(in);
+                     //print main menu
                   break;
-                  case 1:
-                  Accountant Ac = new Accountant(newFile);
-                  Ac.PrintMenu(in);
-                  break;
-                  case 2:
-                  Coach Ch = new Coach(newFile);
-                  Ch.printMenu(in);
+
                   default:
                      System.out.println("Username or password are wrong");
                      break;
@@ -49,4 +42,5 @@ public class Menu
          }
       }while (isProgramRuning == true);
    }
+
 }
