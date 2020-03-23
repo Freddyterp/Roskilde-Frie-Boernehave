@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3f25c59f-68d1-448a-804b-5d9ab11254c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Salary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Schedule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584958362942</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Menues complete">
+      <created>1584964345675</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584964345675</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +102,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added template files from previous project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added template files from previous project" />
+    <MESSAGE value="Menues complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menues complete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1584957216290">
@@ -109,10 +114,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1584957474834" />
-    <state x="197" y="7" key="CommitChangelistDialog2" timestamp="1584958360909">
+    <state x="197" y="7" key="CommitChangelistDialog2" timestamp="1584966211286">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="197" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584958360909" />
+    <state x="197" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584966211286" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584961706668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -129,18 +134,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584961706668" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584958382488">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584964375085">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584958382488" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584964375085" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584526720760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584526720760" />
-    <state x="389" y="204" key="git4idea.merge.GitPullDialog" timestamp="1584957173353">
+    <state x="389" y="204" key="git4idea.merge.GitPullDialog" timestamp="1584966188070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="389" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1584957173353" />
+    <state x="389" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1584966188070" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584961631021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
