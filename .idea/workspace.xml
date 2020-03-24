@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f25c59f-68d1-448a-804b-5d9ab11254c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Files.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Files.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teacher.java" afterDir="false" />
-    </list>
+    <list default="true" id="ab804f8c-a7d5-460a-a030-7a7cb16d7d45" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,10 +83,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584957216290" />
-    <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584957474834">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="676" y="369" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585048243452">
+      <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1584957474834" />
+    <state x="676" y="369" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1680.945@0.23.1680.945" timestamp="1585048243452" />
     <state x="197" y="7" key="CommitChangelistDialog2" timestamp="1584958310451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
