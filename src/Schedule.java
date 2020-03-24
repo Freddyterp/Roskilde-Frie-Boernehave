@@ -33,8 +33,18 @@ public class Schedule {
     }
 
     public void addShift(){
-        //placeholder
-        System.out.println("add shift");
+
+        System.out.println("ID:");
+        int id = in.getInt();
+        System.out.println("Week Number:");
+        int weekNumber = in.getInt();
+        System.out.println("Day of the week:");
+        String dayOfTheWeek = in.getString();
+        System.out.println("Start time of the shift:");
+        int startTime = in.getInt();
+        System.out.println("End time of the shift: ");
+        int endTime = in.getInt();
+
     }
 
     public void deleteShift(){
