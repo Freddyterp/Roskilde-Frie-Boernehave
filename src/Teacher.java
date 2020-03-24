@@ -17,11 +17,11 @@ public class Teacher {
     }
 
     public String getFristName() {
-        return fristName;
+        return firstName;
     }
 
     public void setFirstName(String firstName) {
-        this.fristName = fristName;
+        this.firstName = firstName;
     }
 
     public String getLastName() {
