@@ -4,8 +4,6 @@ public class Teacher {
     //attributes
     private String firstName;
     private String lastName;
-    private String adresse;
-    int age;
     private int id;
     ArrayList<Shift> shiftArray = new ArrayList<>();
 
@@ -21,29 +19,28 @@ public class Teacher {
     }
     public void addShift(int weekNumber, String weekDay, int startTime, int endTime){
         shiftArray.add( new Shift(weekNumber, weekDay, startTime, endTime));
-        System.out.println(shiftArray.toString());
     }
 
     public void deleteShift(int weekNr, String day, int startTime){
 
-        for (int i = 0; i <= shiftArray.size(); i++) {
+        int i;
+        for (i = 0; i <= shiftArray.size(); i++) {
             if(shiftArray.get(i).getWeekNumber() == weekNr &&
                     shiftArray.get(i).getDay().equals(day) &&
                     shiftArray.get(i).getStartOfShift() == startTime ){
-                shiftArray.remove(i);
-
-
+                break;
 
             }
 
-
         }
+
+        this.shiftArray.remove(i);
 
         System.out.println(shiftArray.toString());
         
     }
 
-    public String getFristName() {
+    public String getFirstName() {
         return firstName;
     }
 

@@ -3,13 +3,13 @@ public class Menu
 {
    private static Input in = new Input();
    private static login lg = new login();
-   private static Files newFile = new Files();
 
    public ArrayList<Teacher> getTeacherArray() {
       return teacherArray;
    }
 
-   ArrayList<Teacher> teacherArray = new ArrayList<>();
+   static ArrayList<Teacher> teacherArray = new ArrayList<>();
+
 
    public Menu() {
       Teacher t1 = new Teacher("Theis", "Nielsen", 0);
@@ -22,6 +22,7 @@ public class Menu
    public static void startMenu()
    {
       Menu menu = new Menu();
+      Files newFile = new Files(teacherArray);
       boolean isProgramRuning = true;
       do
       {
@@ -38,15 +39,13 @@ public class Menu
                String Password = in.getString();
       
                int account = lg.checkInfo(Username, Password);
-               switch(account)
-               {
-                  case 0:
-                     menu.printMainMenu();
-                  break;
 
-                  default:
-                     System.out.println("Username or password are wrong");
-                     break;
+               if (account == 0) {
+                  menu.printMainMenu();
+                  newFile.saveFile();
+               } else {
+                  System.out.println("Username or password are wrong");
+
                }
                break;
             case 2:

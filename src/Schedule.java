@@ -1,10 +1,9 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.LinkedList;
+
 
 public class Schedule {
     Input in = new Input();
-    ArrayList<Teacher> teacherArray = new ArrayList<>();
+    ArrayList<Teacher> teacherArray;
 
     public Schedule(ArrayList<Teacher> teacherArray) {
         this.teacherArray = teacherArray;
@@ -40,7 +39,10 @@ public class Schedule {
     public void viewShift(){
         //placeholder
         System.out.println("View schedule");
-
+        for(Teacher teach : teacherArray)
+        {
+            System.out.println(teach.getShiftArray());
+        }
     }
 
     public void addShift(ArrayList<Teacher> arr){
@@ -80,20 +82,13 @@ public class Schedule {
     public void deleteShift(){
         //refactor
         System.out.println("id");
-        int choice = in.getInt();
-        int id = choice;
+        int id = in.getInt();
         System.out.println("Week");
-        choice = in.getInt();
-        int week = choice;
+        int week = in.getInt();
         System.out.println("DAy");
-        String stringChoice = in.getString();
-        String day = stringChoice;
+        String day = in.getString();
         System.out.println("Start of shift");
-        choice = in.getInt();
-        int startTime = choice;
-        System.out.println("end of shift");
-        choice = in.getInt();
-        int endOfShift = choice;
+        int startTime = in.getInt();
 
 
         for (Teacher teach: teacherArray) {

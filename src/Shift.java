@@ -44,4 +44,14 @@ public class Shift {
     public void setEndOfShift(int endOfShift) {
         this.endOfShift = endOfShift;
     }
+
+    @Override
+    public String toString() {
+        return "Shift{" +
+                "weekNumber=" + weekNumber +
+                ", day='" + day + '\'' +
+                ", startOfShift=" + startOfShift +
+                ", endOfShift=" + endOfShift +
+                '}';
+    }
 }
