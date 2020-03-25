@@ -19,7 +19,6 @@ public class Teacher {
     }
     public void addShift(int weekNumber, String weekDay, int startTime, int endTime){
         shiftArray.add( new Shift(weekNumber, weekDay, startTime, endTime));
-        System.out.println(shiftArray.toString());
     }
 
     public void deleteShift(int weekNr, String day, int startTime){

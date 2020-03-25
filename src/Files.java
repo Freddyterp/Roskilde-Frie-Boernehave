@@ -26,13 +26,14 @@ class Files
                 int startTime = read.nextInt();
                 int endTime = read.nextInt();
 
-                for(Teacher teacher : arr)
+                for(Teacher teacher : teacherArray)
                 {
                     if(teacher.getId() == ID)
                     {
                         teacher.addShift(weekNr, weekDay, startTime, endTime);
                     }
                 }
+
             }
             read.close();
         }catch (IOException e)

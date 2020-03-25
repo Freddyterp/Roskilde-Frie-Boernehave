@@ -10,7 +10,6 @@ public class Menu
 
    static ArrayList<Teacher> teacherArray = new ArrayList<>();
 
-   private static Files newFile = new Files(teacherArray);
 
    public Menu() {
       Teacher t1 = new Teacher("Theis", "Nielsen", 0);
@@ -23,6 +22,7 @@ public class Menu
    public static void startMenu()
    {
       Menu menu = new Menu();
+      Files newFile = new Files(teacherArray);
       boolean isProgramRuning = true;
       do
       {
