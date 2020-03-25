@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Teacher {
     //attributes
     private String firstName;
@@ -5,15 +7,40 @@ public class Teacher {
     private String adresse;
     int age;
     private int id;
+    ArrayList<Shift> shiftArray = new ArrayList<>();
 
+    public ArrayList<Shift> getShiftArray() {
+        return shiftArray;
+    }
 
-    public Teacher(String firstName, String lastName, String adresse, int age, int id )
+    public Teacher(String firstName, String lastName, int id )
     {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.adresse = adresse;
-        this.age = age;
         this.id = id;
+    }
+    public void addShift(int weekNumber, String weekDay, int startTime, int endTime){
+        shiftArray.add( new Shift(weekNumber, weekDay, startTime, endTime));
+        System.out.println(shiftArray.toString());
+    }
+
+    public void deleteShift(int weekNr, String day, int startTime){
+
+        for (int i = 0; i <= shiftArray.size(); i++) {
+            if(shiftArray.get(i).getWeekNumber() == weekNr &&
+                    shiftArray.get(i).getDay().equals(day) &&
+                    shiftArray.get(i).getStartOfShift() == startTime ){
+                shiftArray.remove(i);
+
+
+
+            }
+
+
+        }
+
+        System.out.println(shiftArray.toString());
+        
     }
 
     public String getFristName() {
@@ -32,21 +59,6 @@ public class Teacher {
         this.lastName = lastName;
     }
 
-    public String getAdresse() {
-        return adresse;
-    }
-
-    public void setAdresse(String adresse) {
-        this.adresse = adresse;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
 
     public int getId() {
         return id;

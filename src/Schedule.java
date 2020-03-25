@@ -1,5 +1,15 @@
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.LinkedList;
+
 public class Schedule {
     Input in = new Input();
+    ArrayList<Teacher> teacherArray = new ArrayList<>();
+
+    public Schedule(ArrayList<Teacher> teacherArray) {
+        this.teacherArray = teacherArray;
+    }
+
 
     public void printMenu(){
         System.out.println("Schedule menu");
@@ -14,7 +24,7 @@ public class Schedule {
                 break;
 
             case 2:
-                addShift();
+                addShift(teacherArray);
                 break;
 
             case 3:
@@ -30,26 +40,70 @@ public class Schedule {
     public void viewShift(){
         //placeholder
         System.out.println("View schedule");
+
     }
 
-    public void addShift(){
+    public void addShift(ArrayList<Teacher> arr){
+
+
 
         System.out.println("ID:");
         int id = in.getInt();
+
+
+
         System.out.println("Week Number:");
         int weekNumber = in.getInt();
+
+
         System.out.println("Day of the week:");
         String dayOfTheWeek = in.getString();
+
+
         System.out.println("Start time of the shift:");
         int startTime = in.getInt();
+
+
         System.out.println("End time of the shift: ");
         int endTime = in.getInt();
+
+        for (Teacher teacher : arr) {
+            if (teacher.getId() == id) {
+                teacher.addShift(weekNumber, dayOfTheWeek, startTime, endTime);
+
+            }
+
+        }
 
     }
 
     public void deleteShift(){
-        //placeholder
-        System.out.println("delete shift");
+        //refactor
+        System.out.println("id");
+        int choice = in.getInt();
+        int id = choice;
+        System.out.println("Week");
+        choice = in.getInt();
+        int week = choice;
+        System.out.println("DAy");
+        String stringChoice = in.getString();
+        String day = stringChoice;
+        System.out.println("Start of shift");
+        choice = in.getInt();
+        int startTime = choice;
+        System.out.println("end of shift");
+        choice = in.getInt();
+        int endOfShift = choice;
+
+
+        for (Teacher teach: teacherArray) {
+            if(teach.getId() == id) {
+                teach.deleteShift(week, day, startTime);
+            }
+        }
+
+
+
     }
 
 
