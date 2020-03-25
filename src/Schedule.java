@@ -40,7 +40,10 @@ public class Schedule {
     public void viewShift(){
         //placeholder
         System.out.println("View schedule");
-
+        for(Teacher teach : teacherArray)
+        {
+            System.out.println(teach.getShiftArray());
+        }
     }
 
     public void addShift(ArrayList<Teacher> arr){

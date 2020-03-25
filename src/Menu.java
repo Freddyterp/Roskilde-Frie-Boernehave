@@ -38,6 +38,7 @@ public class Menu
                String Password = in.getString();
       
                int account = lg.checkInfo(Username, Password);
+<<<<<<< Updated upstream
                switch(account)
                {
                   case 0:
@@ -47,6 +48,13 @@ public class Menu
                   default:
                      System.out.println("Username or password are wrong");
                      break;
+=======
+               if (account == 0) {
+                  menu.printMainMenu();
+                  newFile.saveFile();
+               } else {
+                  System.out.println("Username or password are wrong");
+>>>>>>> Stashed changes
                }
                break;
             case 2:

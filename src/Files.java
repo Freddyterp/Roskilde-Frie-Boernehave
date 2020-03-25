@@ -13,7 +13,8 @@ class Files
     {
         try
         {
-            Scanner read = new Scanner(new File(filename));
+            File fileLoad = new File(filename);
+            Scanner read = new Scanner(fileLoad);
 
             while(read.hasNext())
             {
