@@ -65,29 +65,30 @@ public class Menu
    }
 
    public void printMainMenu(){
-      System.out.println("Main Menu");
-      System.out.println("1) Salary");
-      System.out.println("2) Schedule");
-      System.out.println("3) Log out");
+      boolean logedOut = false;
 
+      do {
 
-      int mainChoice = in.getInt();
-      switch(mainChoice){
-         case 1:
-            Salary sal = new Salary();
-            sal.printMenu();
-            break;
+         System.out.println("Main Menu");
+         System.out.println("1) Salary");
+         System.out.println("2) Schedule");
+         System.out.println("3) Log out");
 
-         case 2:
-            Schedule sched = new Schedule(teacherArray);
-            sched.printMenu();
-            break;
-         case 3:
-            startMenu();
-            break;
+         int mainChoice = in.getInt();
+         switch (mainChoice) {
+            case 1:
+               Salary sal = new Salary();
+               sal.printMenu(teacherArray);
+               break;
 
-      }
-
+            case 2:
+               Schedule sched = new Schedule(teacherArray);
+               sched.printMenu();
+               break;
+            case 3:
+               logedOut = true;
+               break;
+         }
+      }while(!logedOut);
    }
-
 }

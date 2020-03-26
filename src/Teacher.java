@@ -29,7 +29,6 @@ public class Teacher {
                     shiftArray.get(i).getDay().equals(day) &&
                     shiftArray.get(i).getStartOfShift() == startTime ){
                 break;
-
             }
 
         }
