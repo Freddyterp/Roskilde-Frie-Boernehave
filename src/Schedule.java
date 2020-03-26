@@ -13,27 +13,36 @@ public class Schedule {
     public void printMenu(){
         boolean ScheduleMenu = true;
         do {
+
+
             System.out.println("Schedule menu");
             System.out.println("1) View schedule");
             System.out.println("2) Add shift");
             System.out.println("3) Delete shift");
             System.out.println("4) Main menu");
-            int choice = in.getInt();
-            switch (choice) {
-                case 1:
-                    viewShift();
-                    break;
+            try {
+                int choice = in.getInt();
+                switch (choice) {
+                    case 1:
+                        viewShift();
+                        break;
 
-                case 2:
-                    addShift(teacherArray);
-                    break;
+                    case 2:
+                        addShift(teacherArray);
+                        break;
 
-                case 3:
-                    deleteShift();
-                    break;
-                case 4:
-                    ScheduleMenu = false;
-                    break;
+                    case 3:
+                        deleteShift();
+                        break;
+                    case 4:
+                        ScheduleMenu = false;
+                        break;
+                }
+            }
+            catch(Exception e){
+                System.out.println("Invalid input");
+                System.out.println();
+                in.getString();
             }
         }while(ScheduleMenu);
     }

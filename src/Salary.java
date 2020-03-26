@@ -17,19 +17,26 @@ public class Salary {
             System.out.println("1) View salary");
             System.out.println("2) Edit salary");
             System.out.println("3) Main Menu");
-            int choice = in.getInt();
-            switch (choice) {
-                case 1:
-                    viewSalary();
-                    break;
-                case 2:
-                    editSalary();
-                    break;
-                case 3:
-                    salaryMenu = false;
-                    break;
-            }
 
+            try {
+                int choice = in.getInt();
+                switch (choice) {
+                    case 1:
+                        viewSalary();
+                        break;
+                    case 2:
+                        editSalary();
+                        break;
+                    case 3:
+                        salaryMenu = false;
+                        break;
+                }
+            }
+            catch(Exception e){
+                System.out.println("Invalid input, try again");
+                System.out.println();
+                in.getString();
+            }
         }while (salaryMenu);
     }
 

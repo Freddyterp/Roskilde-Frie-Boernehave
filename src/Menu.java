@@ -45,6 +45,7 @@ public class Menu
                      newFile.saveFile();
                   } else {
                      System.out.println("Username or password are wrong");
+                     System.out.println();
 
                   }
                   break;
@@ -57,6 +58,7 @@ public class Menu
             }
             catch(Exception e){
                System.out.println("Invalid input, try again");
+               System.out.println();
                in.getString();
             }
          } while (isProgramRuning) ;
@@ -74,20 +76,27 @@ public class Menu
          System.out.println("2) Schedule");
          System.out.println("3) Log out");
 
-         int mainChoice = in.getInt();
-         switch (mainChoice) {
-            case 1:
-               Salary sal = new Salary();
-               sal.printMenu(teacherArray);
-               break;
+         try {
+            int mainChoice = in.getInt();
+            switch (mainChoice) {
+               case 1:
+                  Salary sal = new Salary();
+                  sal.printMenu(teacherArray);
+                  break;
 
-            case 2:
-               Schedule sched = new Schedule(teacherArray);
-               sched.printMenu();
-               break;
-            case 3:
-               logedOut = true;
-               break;
+               case 2:
+                  Schedule sched = new Schedule(teacherArray);
+                  sched.printMenu();
+                  break;
+               case 3:
+                  logedOut = true;
+                  break;
+            }
+         }
+         catch(Exception e){
+            in.getString();
+            System.out.println("Invalid input");
+            System.out.println();
          }
       }while(!logedOut);
    }
