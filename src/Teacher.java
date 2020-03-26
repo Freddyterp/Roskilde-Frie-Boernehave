@@ -5,17 +5,19 @@ public class Teacher {
     private String firstName;
     private String lastName;
     private int id;
+    private int salary;
     ArrayList<Shift> shiftArray = new ArrayList<>();
 
     public ArrayList<Shift> getShiftArray() {
         return shiftArray;
     }
 
-    public Teacher(String firstName, String lastName, int id )
+    public Teacher(String firstName, String lastName, int id, int salary )
     {
         this.firstName = firstName;
         this.lastName = lastName;
         this.id = id;
+        this.salary = salary;
     }
     public void addShift(int weekNumber, String weekDay, int startTime, int endTime){
         shiftArray.add( new Shift(weekNumber, weekDay, startTime, endTime));
@@ -59,6 +61,10 @@ public class Teacher {
     public int getId() {
         return id;
     }
+
+    public int getSalary() {return salary;}
+
+    public void setSalary(int salary) {this.salary = salary;}
 
     public void setId(int id) {
         this.id = id;

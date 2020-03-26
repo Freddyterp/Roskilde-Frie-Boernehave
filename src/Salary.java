@@ -53,7 +53,7 @@ public class Salary {
                         System.out.println("Week Day: " + shift.getDay());
                         System.out.println("Shift start time: " + shift.getStartOfShift());
                         System.out.println("Shift end time: " + shift.getEndOfShift());
-                        WeekSalary += (shift.getEndOfShift() - shift.getStartOfShift()) * 100;
+                        WeekSalary += (shift.getEndOfShift() - shift.getStartOfShift()) * teach.getSalary();
                     }
                 }
                 System.out.println("Salary for that week: " + WeekSalary);
@@ -65,6 +65,17 @@ public class Salary {
     public void editSalary()
     {
         System.out.println("Edit salary");
+        System.out.println("Employee ID: ");
+        int ID = in.getInt();
+        for (Teacher teach : teacherArray)
+        {
+            if(teach.getId() == ID)
+            {
+                System.out.println("Enter new salary: ");
+                int salary = in.getInt();
+                teach.setSalary(salary);
+            }
+        }
     }
 
     //slet og opret?

@@ -12,10 +12,10 @@ public class Menu
 
 
    public Menu() {
-      Teacher t1 = new Teacher("Theis", "Nielsen", 0);
-      Teacher t2 = new Teacher("Benjamin", "Prehn", 1);
-      Teacher t3 = new Teacher("Mudi", "kabab", 2);
-      Teacher t4 = new Teacher("Freddy", "Terp", 3);
+      Teacher t1 = new Teacher("Theis", "Nielsen", 0, 50);
+      Teacher t2 = new Teacher("Benjamin", "Prehn", 1, 100);
+      Teacher t3 = new Teacher("Mudi", "kabab", 2,  150);
+      Teacher t4 = new Teacher("Freddy", "Terp", 3, 200);
       teacherArray.add(t1);teacherArray.add(t2);teacherArray.add(t3);teacherArray.add(t4);
    }
 
