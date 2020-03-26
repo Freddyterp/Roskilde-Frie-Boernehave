@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0841cea7-c5d9-4166-a9a9-3fa1bb2a8b2b" name="Default Changelist" comment="No changes">
+    <list default="true" id="0841cea7-c5d9-4166-a9a9-3fa1bb2a8b2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/Files.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/Files.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/Input.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/Menu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/Run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Files.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Files.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/Salary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/Schedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/Schedule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/Shift.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/Shift.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Roskilde-Frie-Boernehave/login.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workHours.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workHours.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584958362942</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Please pull">
+      <created>1585136092117</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585136092117</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Please pull">
+      <created>1585136134637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585136134637</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,34 +150,34 @@
     </state>
     <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585125520977" />
     <state x="718" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1585128538682" />
-    <state x="676" y="369" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584958974267">
-      <screen x="0" y="23" width="1680" height="945" />
+    <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585136195365">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1584957474834" />
+    <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1585136195365" />
     <state x="676" y="369" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1680.945@0.23.1680.945" timestamp="1584958974267" />
     <state x="197" y="7" key="CommitChangelistDialog2" timestamp="1585126388099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="197" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585126388099" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1585131740914">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585215086746">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585126388310" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585215086746" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1585131740914" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1585131740914">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585215086746">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585126388309" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585215086746" />
     <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1585131740914" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1585131740914">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585215086745">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585126388309" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585215086745" />
     <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1585131740914" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1585131740914">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585215086746">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585126388309" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585215086746" />
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1585131740914" />
     <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584958382488">
       <screen x="0" y="0" width="1536" height="824" />

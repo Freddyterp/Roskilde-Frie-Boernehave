@@ -19,40 +19,49 @@ public class Menu
       teacherArray.add(t1);teacherArray.add(t2);teacherArray.add(t3);teacherArray.add(t4);
    }
 
-   public static void startMenu()
-   {
+   public static void startMenu() {
       Menu menu = new Menu();
       Files newFile = new Files(teacherArray);
       boolean isProgramRuning = true;
-      do
-      {
+      do {
          System.out.println("Welcome to Roskildes frie boernehus.");
          System.out.println("1.) Login");
          System.out.println("2.) End Program");
-         int Choice = in.getInt();
-         switch(Choice)
-         {
-            case 1:
-               System.out.println("Username: ");
-               String Username = in.getString();
-               System.out.println("Password: ");
-               String Password = in.getString();
-      
-               int account = lg.checkInfo(Username, Password);
+         int choice;
+            try {
+               choice = in.getInt();
 
-               if (account == 0) {
-                  menu.printMainMenu();
-                  newFile.saveFile();
-               } else {
-                  System.out.println("Username or password are wrong");
+            switch (choice) {
+               case 1:
+                  System.out.println("Username: ");
+                  String Username = in.getString();
+                  System.out.println("Password: ");
+                  String Password = in.getString();
 
-               }
-               break;
-            case 2:
-               isProgramRuning = false;
-               break;
-         }
-      }while (isProgramRuning);
+                  int account = lg.checkInfo(Username, Password);
+
+                  if (account == 0) {
+                     menu.printMainMenu();
+                     newFile.saveFile();
+                  } else {
+                     System.out.println("Username or password are wrong");
+
+                  }
+                  break;
+               case 2:
+                  isProgramRuning = false;
+                  break;
+
+
+            }
+            }
+            catch(Exception e){
+               System.out.println("Invalid input, try again");
+               in.getString();
+            }
+         } while (isProgramRuning) ;
+
+
    }
 
    public void printMainMenu(){
