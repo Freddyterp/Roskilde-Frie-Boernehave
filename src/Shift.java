@@ -47,11 +47,6 @@ public class Shift {
 
     @Override
     public String toString() {
-        return "Shift{" +
-                "weekNumber=" + weekNumber +
-                ", day='" + day + '\'' +
-                ", startOfShift=" + startOfShift +
-                ", endOfShift=" + endOfShift +
-                '}';
+        return day + ", week " + weekNumber + ", " + startOfShift + "-" + endOfShift;
     }
 }

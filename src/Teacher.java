@@ -63,4 +63,11 @@ public class Teacher {
     public void setId(int id) {
         this.id = id;
     }
+
+    public void printShifts(){
+        for (Shift shift : shiftArray){
+
+            System.out.println(shift.toString());
+        }
+    }
 }
